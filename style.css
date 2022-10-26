@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+header { 
+    width: 100vw; 
+    height: 20em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .carousel { 
     width: 100vw;
 }
