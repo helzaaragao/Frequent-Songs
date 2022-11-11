@@ -12,9 +12,13 @@ header {
     justify-content: center;
 }
 
-
-.carousel { 
-    width: 100vw;
+.carousel-item img{ 
+   object-fit: cover;
 }
 
+.mainPhrase h3{ 
+     color: #8182CB;
+     text-align: center;
+     width: 100%;
+}
 
