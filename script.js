@@ -12,25 +12,9 @@ function showSlider() {
     slider[currentSlide].classList.add('on')
 }
 
-function nextSlider() { 
-    hideSlider()
-    if(currentSlide === slider.length -1) { 
-        currentSlide = 0
-    } else {
-       currentSlide++
-    }
-    showSlider()
-}
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
-function prevSlider() { 
-    hideSlider()
-    if(currentSlide === 0) { 
-        currentSlide = slider.length -1
-    } else { 
-        currentSlide--
-    }
-    showSlider()
-}
-
-btnNext.addEventListener('click', nextSlider); 
-btnPrev.addEventListener('click', prevSlider);
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
