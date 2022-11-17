@@ -1,15 +1,52 @@
+@font-face{ 
+    font-family: 'dk liquid';
+    src: url(./assets/DK\ Liquid\ Embrace.ttf);
+}
+
+
+
 * { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
+    font-family: 'dk liquid', sans-serif; 
 }
+
+
 
 header { 
     width: 100vw; 
-    height: 20em; 
+    height: 15em; 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #1E1E1E;
+    color: #8182CB;
+}
+
+header .logo { 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo h1{ 
+    font-size: 2.3em;
+}
+
+header nav li, a { 
+    list-style: none;
+    text-decoration: none;
+    color: #8182CB;
+    font-size: 1.1em;
+    text-align: center;
+
+}
+
+.carousel-item img { 
+    width: 18.75em; 
+    height: 13.125em;
 }
 
 .carousel-item img{ 
@@ -20,5 +57,24 @@ header {
      color: #8182CB;
      text-align: center;
      width: 100%;
+     padding: 5%; 
+}
+
+.container  { 
+    width: 100vw; 
+    color: #8182CB;
+}
+
+.container .col-10 { 
+    width: 100%; 
+}
+
+.container .cardGirls { 
+    width: 5em;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
 }
 
