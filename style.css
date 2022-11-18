@@ -1,6 +1,7 @@
 @font-face{ 
     font-family: 'dk liquid';
-    src: url(./assets/DK\ Liquid\ Embrace.ttf);
+    src: url(./assets/DK\ Liquid\ Embrace.ttf) format("opentype");
+    
 }
 
 
@@ -60,21 +61,25 @@ header nav li, a {
      padding: 5%; 
 }
 
-.container  { 
+.container-fluid  { 
     width: 100vw; 
     color: #8182CB;
 }
 
-.container .col-10 { 
-    width: 100%; 
+.container-fluid .row .align-items-center .col-10 { 
+   width: 100%; 
 }
 
-.container .cardGirls { 
-    width: 5em;
+.allCardGirls { 
+    width: 100%;
+    height: 1em;
+}
+
+.container-fluid .cardGirls { 
+    width: 100%;
     display: flex; 
     flex-direction: row;
     align-items: center;
     text-align: center;
-
 }
 
