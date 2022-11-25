@@ -61,25 +61,33 @@ header nav li, a {
      padding: 5%; 
 }
 
-.container-fluid  { 
-    width: 100vw; 
-    color: #8182CB;
+.container {
+    height: 40em; 
 }
 
-.container-fluid .row .align-items-center .col-10 { 
-   width: 100%; 
-}
-
-.allCardGirls { 
-    width: 100%;
-    height: 1em;
-}
-
-.container-fluid .cardGirls { 
-    width: 100%;
+.col-12 { 
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
+.allCardGirls { 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cardGirls{ 
+    display: flex; 
+    flex-direction: row;
+}
+
+.eachCardGirls{ 
+      width: 12em; 
+      height: 20em;
+      text-align: center;
+}
+
 
