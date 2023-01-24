@@ -61,33 +61,45 @@ header nav li, a {
      padding: 5%; 
 }
 
-.container {
-    height: 40em; 
-}
-
-.col-12 { 
+.col-12 {
+    width: 100vw;
+    height: 100em; 
     display: flex; 
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-}
-
-.allCardGirls { 
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    margin-top: 2em;
 }
 
 .cardGirls{ 
+    width: 100vw; 
     display: flex; 
     flex-direction: row;
 }
 
-.eachCardGirls{ 
-      width: 12em; 
-      height: 20em;
-      text-align: center;
+.lou { 
+    width: 8.5em; 
+}
+
+.manu{ 
+    width: 6.7em;
+}
+
+.ananda{ 
+    width: 7em;
+}
+
+.elana{ 
+    width: 7em;
+}
+
+.carol{ 
+    width: 8.5em;
+}
+
+.giulia{ 
+    width: 10.5em;
 }
 
 
