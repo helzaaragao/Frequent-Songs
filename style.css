@@ -78,28 +78,8 @@ header nav li, a {
     flex-direction: row;
 }
 
-.lou { 
-    width: 8.5em; 
+.eachCardGirls img{ 
+   width: 5em;
+   border-radius: 5px 20px 5px;
 }
-
-.manu{ 
-    width: 6.7em;
-}
-
-.ananda{ 
-    width: 7em;
-}
-
-.elana{ 
-    width: 7em;
-}
-
-.carol{ 
-    width: 8.5em;
-}
-
-.giulia{ 
-    width: 10.5em;
-}
-
 
