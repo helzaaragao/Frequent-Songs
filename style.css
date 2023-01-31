@@ -106,3 +106,32 @@ header nav li, a {
     height: 10em; 
     background-color: #8182CB;
 }
+
+/* <---> Modal <---> */
+.modal-content{ 
+   background-color: #D9D9D9;
+}
+
+.modal-title{ 
+    color:#6c6ed6;
+}
+
+.modal-text{ 
+    width: 100%; 
+}
+
+.modal-text h3{ 
+    font-size: 1em;
+}
+
+.modal-song { 
+    width: 100vw; 
+}
+
+.modal-song h4,h5{ 
+    color: #6c6ed6;
+}
+.modal-song iframe{ 
+    width: 20em;
+    height: 11.25em;
+}
