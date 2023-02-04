@@ -104,7 +104,26 @@ header nav li, a {
 .about{ 
     width: 100vw; 
     height: 10em; 
-    background-color: #8182CB;
+    background-color:#1E1E1E;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#8182CB;
+}
+
+.about h6{ 
+    font-size: 1.1em;
+}
+
+.about p{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 0.7em;
+}
+
+.redes img{ 
+    width: 2em;
+  
 }
 
 /* <---> Modal <---> */
@@ -114,6 +133,9 @@ header nav li, a {
 
 .modal-title{ 
     color:#6c6ed6;
+    font-size: 2em;
+    width: 10em;
+    text-align:center;
 }
 
 .modal-text{ 
@@ -122,16 +144,26 @@ header nav li, a {
 
 .modal-text h3{ 
     font-size: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
 }
 
 .modal-song { 
     width: 100vw; 
 }
 
-.modal-song h4,h5{ 
+.modal-song h4{ 
+    width: 14em; 
     color: #6c6ed6;
+    text-align:center;
+    
 }
 .modal-song iframe{ 
     width: 20em;
     height: 11.25em;
 }
+
+
