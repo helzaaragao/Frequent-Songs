@@ -198,7 +198,7 @@ header nav li, a:hover{
         display: flex; 
         flex-direction: row; 
         justify-content: space-between;
-        padding: 1em;
+        padding: 2em;
         height: 5em;
     }
 
@@ -248,9 +248,19 @@ header nav li, a:hover{
         height: 8em; 
     }
 
-    .modal-song iframe{ 
+    .modal-song{ 
+        width: 100%; 
         display: flex; 
         flex-direction: column;
+        align-items: center;
+    }
+
+    .modal-song h4{ 
+        padding-left: 0em;
+    }
+
+    .modal-title { 
+        width: 100%;
     }
 
     
